@@ -7,7 +7,7 @@
 #define __CS1566_GLOBALS
 
 
-#ifndef min //In VC++ 2008, Ryan got a warning about min redefinition, so let's not redefine it if something else already did; sigh
+#ifndef min 
 #define min(a,b) ((a) < (b)? a:b)
 #endif
 
