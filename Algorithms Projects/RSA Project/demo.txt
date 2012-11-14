@@ -1,0 +1,87 @@
+File Execution and Testing:
+
+C:\Users\Ben>cd desktop
+
+C:\Users\Ben\Desktop>cd rsa project
+
+C:\Users\Ben\Desktop\RSA project>java KeyGenerator
+E = 8544205385725943330127340061312716404536901163545984870221654413488909332379
+422946546238033360893355304177660379046332059512662376045953472926294561570797
+
+D = 2773084147233944536743934637117532388498191647730051025679949953760457820057
+43639574297747780535686960581609066968717110292659519182819085484356907940191660
+19633414565129762849647522937843831892250375770234460531067570773880653436672225
+57571277188516273936800879190919085350560742935169186573584178783980133
+
+N = 7265823812007068612801637044337625114327604706865414900372041076724432039894
+28002437445358867328423828552865699208332680442645290154709676979419839344190278
+26506833029593412202339016553250939407426330274907381162193051017704336213980494
+289101494287151272973815084694179249800223683375184030452595725021205237
+
+
+C:\Users\Ben\Desktop\RSA project>type test.txt
+
+This is a secret message.
+I hope no one can read this.
+This is a test
+a test
+test.
+
+
+C:\Users\Ben\Desktop\RSA project>java Test
+RSA: 1. Sign a Message  2. Corrupt a Message    3. Verify a Message
+1
+
+C:\Users\Ben\Desktop\RSA project>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4ECE-A970
+
+ Directory of C:\Users\Ben\Desktop\RSA project
+
+07/01/2011  02:07 AM    <DIR>          .
+07/01/2011  02:07 AM    <DIR>          ..
+07/01/2011  02:07 AM             1,307 demo.txt
+07/01/2011  01:50 AM             2,152 KeyGenerator.class
+07/01/2011  01:50 AM             1,823 KeyGenerator.java
+07/01/2011  01:58 AM               787 keys.txt
+06/30/2011  11:01 PM             1,173 MD.class
+06/30/2011  11:01 PM             1,214 MD.java
+07/01/2011  01:51 AM             1,687 SignedMessage.class
+07/01/2011  01:51 AM             3,357 SignedMessage.java
+07/01/2011  02:06 AM             2,651 Test.class
+07/01/2011  02:06 AM             3,031 Test.java
+07/01/2011  02:04 AM                88 test.txt
+07/01/2011  02:07 AM               835 test.txt.signed
+              12 File(s)         20,105 bytes
+               2 Dir(s)  170,721,579,008 bytes free
+
+
+C:\Users\Ben\Desktop\RSA project>java Test
+RSA: 1. Sign a Message  2. Corrupt a Message    3. Verify a Message
+3
+Enter file name:
+test.txt.signed
+THIS MESSAGE WAS NOT CORRUPTED: This is a secret message.I hope no one can read
+this.This is a testa testtest.
+
+
+C:\Users\Ben\Desktop\RSA project>java Test
+RSA: 1. Sign a Message  2. Corrupt a Message    3. Verify a Message
+2
+Enter file name:
+test.txt.signed
+
+
+C:\Users\Ben\Desktop\RSA project>java Test
+RSA: 1. Sign a Message  2. Corrupt a Message    3. Verify a Message
+3
+Enter file name:
+test.txt.signed
+THIS MESSAGE WAS TAMPERED WITH: This is $ secret mess$ge.I hope no one c$n re$d
+this.This is $ test$ testtest.
+
+
+
+
+
+
