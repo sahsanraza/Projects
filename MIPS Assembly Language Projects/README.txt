@@ -1,0 +1,1 @@
+These are projects I did for my Computer Hardware and Assembly Language Programming class.

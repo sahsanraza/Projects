@@ -1,0 +1,1 @@
+These are projects I did for my Intermediate Java Programming class.

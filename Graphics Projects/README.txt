@@ -1,0 +1,1 @@
+These are projects I did for my Computer Graphics class.

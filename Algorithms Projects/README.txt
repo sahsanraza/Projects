@@ -1,0 +1,1 @@
+Here are some projects I did for my Algorithm Implementation class.
