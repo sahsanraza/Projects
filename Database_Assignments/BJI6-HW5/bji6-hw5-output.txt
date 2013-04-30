@@ -1,0 +1,94 @@
+SQL> start bji6-queries.sql
+
+COUNT(P.D_FULLNAME) SUM(P.QUANTITY)                                             
+------------------- ---------------                                             
+                 17             230                                             
+                 22             248                                             
+                 18             223                                             
+                 18             248                                             
+                 17             150                                             
+                 17             166                                             
+                 24             173                                             
+                 19             210                                             
+                 19             244                                             
+                 14             128                                             
+                 13             174                                             
+
+COUNT(P.D_FULLNAME) SUM(P.QUANTITY)                                             
+------------------- ---------------                                             
+                 16             212                                             
+                 16             235                                             
+                 19             228                                             
+                 27             287                                             
+                 18             137                                             
+                 18             210                                             
+                 26             371                                             
+                 22             193                                             
+                 15             179                                             
+                 20             226                                             
+                 11              93                                             
+
+COUNT(P.D_FULLNAME) SUM(P.QUANTITY)                                             
+------------------- ---------------                                             
+                 11             159                                             
+                  5              48                                             
+                  3              27                                             
+                 21             225                                             
+                 16             158                                             
+                 27             252                                             
+                 18             197                                             
+                 20             195                                             
+                 20             194                                             
+                 16             163                                             
+                 23             261                                             
+
+COUNT(P.D_FULLNAME) SUM(P.QUANTITY)                                             
+------------------- ---------------                                             
+                  9              89                                             
+                 19             127                                             
+                 12             117                                             
+                  1               5                                             
+                 24             256                                             
+                 18             121                                             
+                 20             162                                             
+                 20             178                                             
+                 21             197                                             
+                 10              98                                             
+                 15             156                                             
+
+COUNT(P.D_FULLNAME) SUM(P.QUANTITY)                                             
+------------------- ---------------                                             
+                 21             229                                             
+                 19             247                                             
+                 19             197                                             
+                 11             115                                             
+                 17             169                                             
+                 20             242                                             
+                 18             153                                             
+                 11             144                                             
+                 22             287                                             
+
+53 rows selected.
+
+
+Table created.
+
+
+Table created.
+
+
+P_FULLNAME                                                                      
+--------------------------------------------------                              
+AdrianTNewman                                                                   
+MichaelFCao                                                                     
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Recyclebin purged.
+
+SQL> spool end
