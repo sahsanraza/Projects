@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pitt.cs1635.bji6.twitterapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/twitter_logo_solid3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="edu.pitt.cs1635.bji6.twitterapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="edu.pitt.cs1635.bji6.twitterapp.Home"
+            android:label="@string/Home_btn"
+            android:parentActivityName="edu.pitt.cs1635.bji6.twitterapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.cs1635.bji6.twitterapp.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="edu.pitt.cs1635.bji6.twitterapp.MentionsActivity"
+            android:label="@string/Mentions_btn"
+            android:parentActivityName="edu.pitt.cs1635.bji6.twitterapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.cs1635.bji6.twitterapp.MainActivity" />
+        </activity>
+        
+         <activity
+            android:name="edu.pitt.cs1635.bji6.twitterapp.PostActivity"
+            android:label="@string/Post_btn"
+            android:parentActivityName="edu.pitt.cs1635.bji6.twitterapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.cs1635.bji6.twitterapp.MainActivity" />
+        </activity>
+        
+         <activity
+            android:name="edu.pitt.cs1635.bji6.twitterapp.DisplayTweet"
+            android:label="@string/Tweet_View"
+            android:parentActivityName="edu.pitt.cs1635.bji6.twitterapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.cs1635.bji6.twitterapp.MainActivity" />
+        </activity>
+        
+    </application>
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission> 
+</manifest>

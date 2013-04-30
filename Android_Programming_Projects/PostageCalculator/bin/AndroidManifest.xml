@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pitt.cs1635.bji6.proj1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/postal_service"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.pitt.cs1635.bji6.proj1.PostageCalculator"
+            android:label="@string/app_name"
+            android:configChanges="orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.pitt.cs1635.bji6.proj1.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="edu.pitt.cs1635.bji6.proj1.MainActivity"
+            android:configChanges="orientation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.cs1635.bji6.proj1.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+This folder contains projects I worked on as part of my UI design & Android programming class.  They were all developed in Eclipse.

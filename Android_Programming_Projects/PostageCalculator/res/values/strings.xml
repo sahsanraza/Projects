@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Postage Calculator</string>
+    <string name="message1">Welcome!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="button_send">Calculate</string>
+    <string name="title_activity_display_message">Cost of Shipment</string>
+    <string name="letter">Letter</string>
+    <string name="package1">Package</string>
+    <string name="envelope">Large Envelope</string>
+    <string name="message_letter">Must weigh 0-3.5 oz.</string>
+    <string name="message_package">Must weigh 0-13 oz.</string>
+    <string name="s_return">Go Back</string>
+    <string name="b_exit">Exit</string>
+    <color name="buff">#F0DC82</color>
+    <color name="turkish_rose">#B57281</color>
+
+</resources>

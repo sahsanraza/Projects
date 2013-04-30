@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Home_btn">Home</string>
+    <string name="Mentions_btn">Mentions</string>
+    <string name="Post_btn">Post</string>
+    <string name="Exit">Exit</string>
+    <string name="Back_btn">Back</string>
+    <string name="Refresh_btn">Refresh</string>
+    <string name="post_hint">Type your tweet here</string>
+    <string name="Tweet_View">Tweet View</string>
+
+</resources>

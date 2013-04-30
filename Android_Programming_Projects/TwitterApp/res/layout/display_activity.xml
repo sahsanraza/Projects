@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/friendscount"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/followerscount"
+        android:layout_alignBottom="@+id/followerscount"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="90dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/realname"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/realname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tweetcount"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/followerscount"
+        android:layout_alignBottom="@+id/followerscount"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/followerscount"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/realname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tweetmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/realname"
+        android:layout_below="@+id/tweetcount"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_button"
+        android:onClick="backToPrevious" />
+
+    <Button
+        android:id="@+id/urlbutton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/backbutton"
+        android:layout_alignBottom="@+id/backbutton"
+        android:layout_alignRight="@+id/realname"
+        android:background="@drawable/internet_icon"
+        android:onClick="launchBrowser" />
+
+</RelativeLayout>
